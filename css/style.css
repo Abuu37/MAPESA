@@ -120,21 +120,18 @@ html
     display: inline-flex;
     justify-content: space-between;
     background-color: rgb(69, 91, 131);
-   
-
 }
 
 .nav .logo img
 {
-    width: 40%;
-    margin-left: 50px;
-
+    width: 70%;
+    margin-left: 60px;  
 }
 
 .nav ul
 {
     display: inline-flex;
-    margin-right: 15%;
+    margin-right: 20%;
     margin-top: 30px;
     margin-left: 5px;
    
@@ -158,6 +155,7 @@ html
 
 .nav ul li a:hover
 {
+    
     color: orange;
 
 }
@@ -254,12 +252,17 @@ html
   margin-top: 25px;
 }
 
-
-
 .tech-img{
-    margin-top: 10%;
+    margin-top: -20px;
     margin-left: 10%;
+    
 }
+
+.tech-img img{
+  width: 80%;
+}
+
+
 
 #advertise-section{
  
@@ -368,6 +371,11 @@ html
 .list span:nth-child(2):hover
 {
   color:rgb(128, 128, 247);
+}
+
+.cont-Three .img img{
+  width: 100%;
+  margin-left: 10%;
 }
 
 
