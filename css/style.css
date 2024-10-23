@@ -156,7 +156,7 @@ html
 .nav ul li a:hover
 {
     
-    color: orange;
+    color:rgb(252, 78, 107);
 
 }
 
@@ -165,6 +165,7 @@ html
     margin-right: 100px;
     margin-top: 25px;
     padding: 2px;
+    border: none;
     border-radius: 20px;
     width: 130px;  
     height: 35px;
@@ -174,7 +175,7 @@ html
 
 #button button:hover
 {
-    background-color:orange;
+    background-color:rgb(252, 78, 107);
 
 }
 
@@ -209,6 +210,7 @@ html
   
   margin-top: 25px;
   border-radius: 20px;
+  border: none;
   width: 130px;
   height: 38px;
   background-color:rgb(93, 150, 226);
@@ -380,64 +382,140 @@ html
 
 
 #percentage-section{
- 
-  height: 450px;
+  height: 440px;
   background-color: white;
-
-  
-
-}
-.percent-text{
-  margin-top: 5%;
-  margin-left: 4%;
-
 }
 
-.percent-numb .cont{
-  width: 90%;
-  height: 12px;
-  background-color: rgba(97, 93, 93, 0.726);
-  margin-top: 30px;
-  margin-left: 3%;
+.percentages{
+  padding-top: 30px;
 }
 
+.percentages p{
+  font-size: 18px;
+}
 
 .percent-img img{
-  width:60%;
-  margin-left: 100px;
-  margin-top: 50px;
+  width: 60%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+
+.percent{
+  margin: 20px  10px ;
+}
+
+
+.title{
+  display: inline-flex;
+  width: 100%;
+}
+
+.title span{
+  font-size: 12px;
+  font-weight:700;
+}
+
+.spacer{
+  width: 100%;
+}
+
+.bar-grey{
+  background-color: rgb(190, 188, 188);
+  width: 100%;
+  height: 10px;
+}
+
+.html .bar-darkblue{
+  background-color:#1d3053;
+  width:100%;
+  height: 10px;
+}
+
+.css .bar-darkblue{
+  background-color:#1d3053;
+  width:90%;
+  height: 10px;
+}
+
+.javascript .bar-darkblue{
+  background-color:#1d3053;
+  width:75%;
+  height: 10px;
+}
+
+.python .bar-darkblue{
+  background-color:#1d3053;
+  width:55%;
+  height: 10px;
 }
 
 #services-section{
+  height: 520px;
   width: 100%;
-  height: 450px;
-  background-color: rgba(241, 238, 238, 0.726);
- 
-
+  padding-top: 4%;
+  background-color: hsla(0, 10%, 94%, 0.726);
 }
 
-.services-text{
+.service-title {
+  display: block;
+}
+
+.service-title h1{
+  color:rgb(69, 91, 131);
+  text-align: center;
+  font-weight: bolder;
   font-size: 30px;
-  margin-top: 40px;
+}
+
+.service-title p{
+  text-align: center;
+  padding-top: 20px;
+  font-size:18px ;
+}
+
+.services .row{
+  padding-top:40px ;
+  margin: 0px 50px 0px 50px;
+}
+ .service-info{
+  background-color: white;
+  height: 280px;
+  width: 100%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: 1s;
+}
+
+.service-info:hover{
+  margin: 10px 0px;
+  transform:scale(1.1);
+}
+.service-info span{
+  display: block;
+  color: hsl(240, 83%, 73%);
+  font-size: 30px;
+  padding-top: 18%;
+  margin: 0px 20px 0px 20px;
+}
+.service-info h5{
+  margin: 0px 20px 0px 20px;
+  color: rgb(69, 91, 131);
+  padding-top: 10px;
   font-weight: bold;
-  text-align: center;
-
 }
 
-.col-md-12 h6{
-  text-align: center;
+.service-info h5:hover{
+  color:hsl(240, 83%, 73%) ;
 }
 
-.box{
-  width: 80%;
-  height: 230px;
-  background-color:white;
-  margin-top: 20%;
-  margin-left: 20px;
-  padding: 15px;
-  box-shadow: 5px 5px 5px rgb(96, 97, 96);
-
+.service-info p{
+  margin: 0px 20px 0px 20px;
+  padding-top: 10px;
 }
+
+
+
+
 
 
 
